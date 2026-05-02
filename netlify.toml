@@ -1,0 +1,14 @@
+# Netlify Configuration File
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # FFmpeg.wasm اور SharedArrayBuffer کے لیے لازمی ہیڈرز
+    Cross-Origin-Opener-Policy = "same-origin"
+    Cross-Origin-Embedder-Policy = "require-corp"
+
+[[redirects]]
+  # Single Page Application (SPA) کے روٹس کے لیے ری ڈائریکٹ رول
+  from = "/*"
+  to = "/index.html"
+  status = 200
