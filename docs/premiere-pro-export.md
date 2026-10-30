@@ -9,7 +9,7 @@ MediaForge AI exports a Final Cut Pro 7 XML interchange sequence (`.xml`) for im
 3. In Premiere Pro, choose **File > Import** and select the downloaded XML file.
 4. Relink any offline source media, review the sequence, then use **File > Save As** to save a native Premiere Pro project (`.prproj`).
 
-The sequence follows the timeline's displayed clip order, places clips back to back, and uses each clip's trim start and duration. It carries the project's frame rate, aspect ratio, and resolution. When audio export is enabled, audio clips and video clips with audio are placed on a separate audio track.
+The sequence follows the timeline's displayed clip order, places clips back to back, and uses each clip's trim start and duration. It carries the frame rate, aspect ratio, and resolution currently selected in Export Settings. When audio export is enabled, audio clips and video clips with audio are placed on a separate audio track.
 
 ## Relinking browser uploads
 
